@@ -3,20 +3,25 @@ project:
   output-dir: docs
 
 website:
-  title: "themilamatich.github.io"
+  title: "Mila Matich"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - projects.qmd
+      - favs.qmd
+      - abroad.qmd
+      - resume.qmd
 
 format:
   html:
     theme:
-      - cosmo
+      - morph
       - brand
     css: styles.css
     toc: true
+    page-layout: full
 
 
 
