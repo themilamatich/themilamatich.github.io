@@ -1,7 +1,24 @@
 ---
-title: "themilamatich.github.io"
+title: "Mila Matich"
+image: headshot.png
+toc: false
+about: 
+  template: jolla
+  image-shape: round
+  image-width: 17em
+  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/mila-matich-63a857263/
+    - text: GitHub
+      href: https://github.com/themilamatich
+    - text: Email
+      href: milamatioch@ucsb.edu
 ---
+       
+Hi, welcome to my website! My name is Mila Matich and I am in my third year of my Environmental Studies, Bachelors in Science degree at the University of California, Santa Barbara. Poke around my website to learn about me and my life!
 
-This is a Quarto website.
+## Education (how do I make this like a line?)
+University of California, Santa Barbara (Expected: June 2027)
+University of Queensland, St. Lucia Campus (UCEAP Study Abroad Program August - November 2025)
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
