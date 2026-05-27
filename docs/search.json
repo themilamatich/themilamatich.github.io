@@ -2,15 +2,64 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About Me",
     "section": "",
-    "text": "About this site"
+    "text": "Hey! If you want to learn a little bit more about me outside of my major, your in the right place! Below I have added some of the things that make me who I am. Enjoy!\n** add another photo of me that is more personal"
+  },
+  {
+    "objectID": "about.html#my-hometown",
+    "href": "about.html#my-hometown",
+    "title": "About Me",
+    "section": "My Hometown",
+    "text": "My Hometown\n\nManhattan beach, ca\nDescription of where it is + its important"
+  },
+  {
+    "objectID": "about.html#my-family",
+    "href": "about.html#my-family",
+    "title": "About Me",
+    "section": "My Family",
+    "text": "My Family\n\nPhotos of my family labeled who’s who !\ndescription of the importance my family has to me\nFavorite family activities: playing cards !\n\n\nThe Family Password: Pepper\n\nwho shes is\nimportance (ie. topic of my college essay)"
+  },
+  {
+    "objectID": "about.html#my-favorite-hobbiespasstimes",
+    "href": "about.html#my-favorite-hobbiespasstimes",
+    "title": "About Me",
+    "section": "My Favorite Hobbies/Passtimes",
+    "text": "My Favorite Hobbies/Passtimes\n\nsurfing (include photos of me surfing)\ncooking/baking (include photos of my meals + my famous banana bread)\nyoga (map of some of my favorite studios and classes in sb)"
+  },
+  {
+    "objectID": "about.html#education-aspirations",
+    "href": "about.html#education-aspirations",
+    "title": "About Me",
+    "section": "Education + Aspirations",
+    "text": "Education + Aspirations\nI currently have a focus in Marine Biology and Terrestrial ecology. Some of my career interests are field work and getting involved in marine or terrestrial conservation and restoration work. I am very passionate about sustainability and protecting our natural resources and species\nSome upcoming exciting news is that I will be participating in the Bren Fellowship Program this upcoming summer assisting on the “Promoting Wildfire Resilience in Santa Barbara County” project. I was also selected to be published in the 2026 Edition of Starting Lines, the text book for the UCSB writing program."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Blog post format\nENVS 40 written project (article)\nAs a class project, I wrote a long-form journal article analyzing the environmental and socioeconomic effects of on-reef construction in French Polynesia prior to the Paris 2024 Olympics.\nSkills: writing + interdisciplinary research\nWRIT 2: genre Translation document that was published in the 2026 edition of starting lines\nFor a class project, I translate a peer reviewed scientific article into a podcast and a childrens book.\nSkills: science communication, writing\nWRIT 105S written project (article)\nFor a class final, I wrote a long-form article assessing the importance of farmers markets in Santa Barbara, and how I use it as a form of grocery shopping, and how this helps move toward a sustainable future.\nSkills: writing\nAustralia Clam Research Project (heron island)\nWent through the entire research process, where in groups we developed a research question and project outline studying Giant Clam ecology in Heron Island. Our group analyzed the differences in size and abundance across a disturbed (near by the island harbor) and undisturbed site.\nSkills: field work, research\nHeal the Bay Photo Shoot Production\nLead the production of a photoshoot to reboot the non-profit heal the bay merch website. Alongside professional photographer https://shop.healthebay.org/collections/apparel\nSkills: project organization + management"
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Insert my resume"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "themilamatich.github.io",
+    "title": "Mila Matich",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Hi, welcome to my website! My name is Mila Matich and I am in my third year of my Environmental Studies, Bachelors in Science degree at the University of California, Santa Barbara. Poke around my website to learn about me and my life!"
+  },
+  {
+    "objectID": "index.html#education-how-do-i-make-this-like-a-line",
+    "href": "index.html#education-how-do-i-make-this-like-a-line",
+    "title": "Mila Matich",
+    "section": "Education (how do I make this like a line?)",
+    "text": "Education (how do I make this like a line?)\nUniversity of California, Santa Barbara (Expected: June 2027) University of Queensland, St. Lucia Campus (UCEAP Study Abroad Program August - November 2025)"
   }
 ]
