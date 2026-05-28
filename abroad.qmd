@@ -2,3 +2,19 @@
 title: "Educations & Travel Abroad"
 ---
 
+Things to do: 
+starting page: map with three points on
+- Australia
+- New Zealand
+- Costa Rica 
+→ idea is that it will open to each of these with their own zoomed in map with more pins and a better description 
+
+**Australia**
+Interactive map documenting all of the places I went to in australia and description of what I did in each place with photos 
+
+**New Zealand**
+Outline of my 12 day adventure
+Take my itinerary and turn it into a sort of blog situation 
+Including lists of hikes, where we ate and what hostel we stayed in 
+Also have an interactive map of all of the places that I went to across the south island 
+
