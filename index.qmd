@@ -17,8 +17,5 @@ about:
        
 Hi, welcome to my website! My name is Mila Matich and I am in my third year of my Environmental Studies, Bachelors in Science degree at the University of California, Santa Barbara. Poke around my website to learn about me and my life!
 
-## Education (how do I make this like a line?)
-University of California, Santa Barbara (Expected: June 2027)
-University of Queensland, St. Lucia Campus (UCEAP Study Abroad Program August - November 2025)
 
 
