@@ -1,0 +1,19 @@
+---
+title: "A Translation on Anotation"
+description: "My WRIT2 final project on annotation and genre translation."
+image: writ2_thumbnail.png
+date: 2026-05-18
+format: html
+toc: false
+lightbox: 
+  css-class: "styles"
+categories:
+  - writing
+  - genre translation 
+  - publication
+---
+*As my Writing 2 Project 2 in Spring 2025, I developed a podcast script that resembled a conversation between different peer reviewed articles and authors. The topic of interest was the benefit and the downfalls of annotation in preliminary education. As of this past May, this project will be published in the **2026 Edition of Starting Lines**, the text book for Writing 1, Writing 2, and Linguistics 3A, 3B, 3C classes* 
+
+[View](Writing Project 2_ Translation on Annotation.pdf)
+
+![](Writing Project 2_ Translation on Annotation.pdf){width="100%" height="700px"}

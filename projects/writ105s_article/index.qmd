@@ -1,0 +1,17 @@
+---
+title: "Farm Fresh & Ready: How Farmers Markets Support Sustainability in the Santa Barbara Community"
+description: "My WRIT105S Final Project: an article on sustainability. "
+image: sustainability_thumbnail.png
+format: html
+toc: false
+lightbox: 
+  css-class: "styles"
+categories:
+  - writing
+---
+
+*For my WRIT105s class final in Winter 2026, I wrote a long-form article assessing the importance of farmers markets in Santa Barbara, and how I use it as a form of grocery shopping, and how this helps move toward a sustainable future.*
+
+[View](writ105s_final.pdf)
+
+![](writ105s_final.pdf){width="100%" height="700px"}

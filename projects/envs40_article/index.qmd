@@ -1,0 +1,20 @@
+---
+title: "OLYMPIC SURF TOWER TEAHUPO’O, TAHITI IN FRENCH POLYNESIA: Is it environmentally safe and really worth it? "
+description: "My ENVS 40 final project: a long form, journalistic style article and analysis."
+image: surf_thumbnail.png
+format: html
+toc: false
+lightbox: 
+  css-class: "styles"
+categories:
+  - writing
+  - critical thinking 
+  - individual research  
+---
+
+*As a my ENVS 40 final project in Winter 2025, I wrote a long-form journal article analyzing the environmental and socioeconomic effects of on-reef construction in French Polynesia prior to the Paris 2024 Olympics.*
+
+[View](envs40_final.pdf)
+
+![](envs40_final.pdf){width="100%" height="700px"}
+

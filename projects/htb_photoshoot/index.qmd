@@ -1,0 +1,39 @@
+---
+title: "Heal The Bay Merchenidse Photoshoot"
+description: "Photoshoot producer for non-profit website reboot."
+image: htb_thumbnail.png
+format: html
+toc: false
+lightbox: 
+  css-class: "styles"
+categories:
+  - project organization & management
+  - marketing 
+---
+
+*Over the summer in 2025, I lead the production of a photo shoot to reboot the non-profit Heal the Bay merchandise page on their website. This including finding a professional photographer, models, staging the photo shoots, designing the visuals and communication with Heal the Bay.*
+
+## Photos in Action 
+
+:::: {layout-nrow="1"}
+::: figure
+![](images/stage1.jpg){.regular-hover}
+:::
+
+::: figure
+![](images/stage2.jpg){.regular-hover}
+:::
+
+::: figure
+![](images/stage3.jpg){.regular-hover}
+:::
+::::
+
+## Designed Product Layout 
+:::: {layout-nrow="1"}
+::: figure
+![I laid out all of the merchendise before the photographer took and edited the photo.](images/layout.jpg){.regular-hover}
+:::
+::::
+
+For the final product, visit the [Heal the Bay Website](https://shop.healthebay.org/collections/apparel)

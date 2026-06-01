@@ -1,0 +1,52 @@
+---
+title: "Does harbor activity influence Tridacna maxima giant clam size, density and population dynamics on Heron Island?"
+description: "UCEAP Marine Biology & Terrestrial Ecology Research Project Report."
+image: hirs_thumbnail.JPG
+format: html
+toc: false
+lightbox:
+  css-class: "styles"
+categories:
+  - field work 
+  - project design
+  - R/Rstudio
+  - scientific writing
+---
+
+*For my study abroad Marine Biology field course in teh Fall 2025, I went through the entire research process, where in groups we developed a research question and project outline studying Giant Clam ecology in Heron Island. Our group analyzed the differences in size and abundance across a disturbed (near by the island harbor) and undisturbed site on the island.*
+
+## Giant Clams
+:::: {layout="[[1, 1], [1]]"}
+::: figure
+![*Tridacna maxima* Giant Clam](images/tmax.jpg){.regular-hover}
+:::
+
+::: figure
+![](images/tmax2.jpg){.regular-hover}
+:::
+
+::: figure
+![Taking measurements of shell length *in situ*.](images/tmax_measure.jpg){.regular-hover}
+:::
+::::
+
+## Group Work 
+::::: {layout-nrow="1"}
+::: figure
+![My Group](images/my_group.jpg){.regular-hover}
+:::
+
+::: figure
+![Going to work in the field!](images/actionshot.jpg){.regular-hover}
+:::
+
+::: figure
+![Writing down Measurments](images/data_collect.jpg){.regular-hover}
+:::
+:::::
+
+## My Research Report 
+
+[View](Matich_HIRS Report.pdf)
+
+![](Matich_HIRS Report.pdf){width="100%" height="700px"}
