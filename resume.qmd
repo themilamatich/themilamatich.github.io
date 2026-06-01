@@ -1,13 +1,16 @@
 ---
 title: "Curriculum Vitae"
+toc: false
+lightbox: 
+  css-class: "styles"
 ---
 
 *Updated: May 28, 2026.* [View](mila matich cv (ongoing).pdf)
 
 ------------------------------------------------------------------------
 
-![](mila matich cv (ongoing).pdf)
+![](mila matich cv (ongoing).pdf){width="100%" height="700px"}
 
 ------------------------------------------------------------------------
 
-** need to change the size of it to fill the whole page 
+

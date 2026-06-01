@@ -46,7 +46,7 @@
     "href": "resume.html",
     "title": "Curriculum Vitae",
     "section": "",
-    "text": "Updated: May 28, 2026. View\n\n\n\n** need to change the size of it to fill the whole page"
+    "text": "Updated: May 28, 2026. View"
   },
   {
     "objectID": "abroad.html",
@@ -54,6 +54,13 @@
     "title": "Educations & Travel Abroad",
     "section": "",
     "text": "Things to do: starting page: map with three points on - Australia - New Zealand - Costa Rica → idea is that it will open to each of these with their own zoomed in map with more pins and a better description\nAustralia Interactive map documenting all of the places I went to in australia and description of what I did in each place with photos\nNew Zealand Outline of my 12 day adventure Take my itinerary and turn it into a sort of blog situation Including lists of hikes, where we ate and what hostel we stayed in Also have an interactive map of all of the places that I went to across the south island Costa Rica Description of the BIOMA program that I did Where I stayed, what I did, and what I learned Photo gallery !"
+  },
+  {
+    "objectID": "favs.html",
+    "href": "favs.html",
+    "title": "My Santa Barbara Favorites",
+    "section": "",
+    "text": "Guide to my favorite places in SB (interactive map with different colors for restaurants/food, hikes, coffee spots. when you tap on one it’ll open to photos, what I order and how long it takes!)\nGoing to include:\n\nFood\nBreakfast restaurants, dinners, cute places to check out\nHikes\nHikes I have done in SB\nCoffee Shops\nMy favorite study spots!"
   },
   {
     "objectID": "index.html",
