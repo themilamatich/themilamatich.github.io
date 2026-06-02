@@ -20,41 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -102,6 +67,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
+<link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
+<script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
+<script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
+<script src="site_libs/leaflet-binding-2.2.3/leaflet.js"></script>
+<script src="site_libs/leaflet-providers-2.0.0/leaflet-providers_2.0.0.js"></script>
+<script src="site_libs/leaflet-providers-plugin-2.2.3/leaflet-providers-plugin.js"></script>
+<link href="site_libs/leaflet-minimap-3.3.1/Control.MiniMap.min.css" rel="stylesheet">
+<script src="site_libs/leaflet-minimap-3.3.1/Control.MiniMap.min.js"></script>
+<script src="site_libs/leaflet-minimap-3.3.1/Minimap-binding.js"></script>
 
 
 </head>
@@ -158,11 +138,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#interactive-map" id="toc-interactive-map" class="nav-link active" data-scroll-target="#interactive-map">Interactive Map</a></li>
+  <li><a href="#my-orders" id="toc-my-orders" class="nav-link" data-scroll-target="#my-orders">My Orders</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -174,7 +161,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -186,54 +173,29 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
+<p>Whenever I am sick of studying on campus at the Library or Bren Hall, I venture to our local Santa Barbara coffee shops in order to be productive and see a change of scenery out of Isla Vista. Below is an interactive map of some of my favorites that I frequent.</p>
+<section id="interactive-map" class="level2">
+<h2 class="anchored" data-anchor-id="interactive-map">Interactive Map</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># loading in packages</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(sf)  <span class="co"># spatial data handling             </span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Linking to GEOS 3.13.0, GDAL 3.8.5, PROJ 9.5.1; sf_use_s2() is TRUE</code></pre>
+<div class="cell-output-display">
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-b1f418d22874bafc792e" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-b1f418d22874bafc792e">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["Esri.WorldImagery",null,"ESRI World Imagery",{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addProviderTiles","args":["Esri.OceanBasemap",null,"ESRI Oceans",{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addMiniMap","args":[null,null,"bottomright",150,150,19,19,-5,false,false,false,true,false,true,{"color":"#ff7800","weight":1,"clickable":false},{"color":"#000000","weight":1,"clickable":false,"opacity":0,"fillOpacity":0},{"hideText":"Hide MiniMap","showText":"Show MiniMap"},[]]},{"method":"addMarkers","args":[[34.43099988,34.43484275,34.43738674,34.43960899,34.43804714,34.42374677,34.41828592,34.41897385,34.42122315,34.416914,34.42190327],[-119.8693269,-119.8359269,-119.8287011,-119.771957,-119.725912,-119.6984462,-119.6999493,-119.6953248,-119.6936946,-119.6896685,-119.6904972],{"iconUrl":{"data":"data:image/png;base64,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","index":0},"iconWidth":30,"iconHeight":15},null,"name",{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["Dune Coffee Roasters (Goleta)<br>~ 6am to 4pm<br>Coordinates: 34.43099988, -119.8693269","Dean: A coffee shop<br>~ 6am to 3pm<br>Coordinates: 34.43484275, -119.8359269","Old Town Coffee<br>~ 6am to 5pm<br>Coordinates: 34.43738674, -119.8287011","Java Station<br>6am to 5pm<br>Coordinates: 34.43960899, -119.771957","Handle Bar (Upper State)<br>6:30am to 5pm<br>Coordinates: 34.43804714, -119.725912","Handle Bar (Lower State)<br>6:30am to 5pm<br>Coordinates: 34.42374677, -119.6984462","Lighthouse Coffee<br>6am to 4pm<br>Coordinates: 34.41828592, -119.6999493","Dune Coffee Roasters (Downtown)<br>~ 6am to 5pm<br>Coordinates: 34.41897385, -119.6953248","Backyard Bowls<br>8am to 5pm<br>Coordinates: 34.42122315, -119.6936946","Dart Coffee Co<br>7am to ~4pm<br>Coordinates: 34.416914, -119.6896685","\"Fancy\" Caje Coffee Roasters<br>7am to 6pm<br>Coordinates: 34.42190327, -119.6904972"],null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addLayersControl","args":[["ESRI World Imagery","ESRI Oceans"],"name",{"collapsed":true,"autoZIndex":true,"position":"topright"}]}],"setView":[[34.43,-119.78],12,[]],"limits":{"lat":[34.416914,34.43960899],"lng":[-119.8693269,-119.6896685]}},"evals":[],"jsHooks":[]}</script>
 </div>
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(leaflet) <span class="co"># interactive map creation       </span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(htmltools) <span class="co"># HTML rendering for labels and popups       </span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(janitor) <span class="co"># cleaning column names</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>
-Attaching package: 'janitor'</code></pre>
 </div>
-<div class="cell-output cell-output-stderr">
-<pre><code>The following objects are masked from 'package:stats':
-
-    chisq.test, fisher.test</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse) <span class="co"># data wrangling</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
-✔ dplyr     1.1.4     ✔ readr     2.1.5
-✔ forcats   1.0.1     ✔ stringr   1.5.2
-✔ ggplot2   4.0.1     ✔ tibble    3.3.0
-✔ lubridate 1.9.4     ✔ tidyr     1.3.1
-✔ purrr     1.1.0     </code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-✖ dplyr::filter() masks stats::filter()
-✖ dplyr::lag()    masks stats::lag()
-ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)  <span class="co"># reading CSV files</span></span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="co"># reading in data </span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p><strong>Guide to my favorite places in SB</strong> (interactive map with different colors for restaurants/food, hikes, coffee spots. when you tap on one it’ll open to photos, what I order and how long it takes!)</p>
-<p>Going to include:</p>
+</section>
+<section id="my-orders" class="level2">
+<h2 class="anchored" data-anchor-id="my-orders">My Orders</h2>
+<p>Typically I usually order:</p>
 <ul>
-<li>Food</li>
-<li>Breakfast restaurants, dinners, cute places to check out</li>
-<li>Hikes</li>
-<li>Coffee Shops</li>
-<li>My favorite study spots!</li>
+<li><p>Cappuccino with almond milk</p></li>
+<li><p>Cold brew with a splash of coconut milk</p></li>
+<li><p>Iced matcha with almond milk (+ lavendar syrup)</p></li>
+<li><p>Matcha lemonade</p></li>
+<li><p>Iced latte with coconut milk</p></li>
 </ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

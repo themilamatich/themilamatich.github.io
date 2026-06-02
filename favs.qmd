@@ -4,27 +4,83 @@ format: html
 categories: [Interactive Map]
 ---
 
+Whenever I am sick of studying on campus at the Library or Bren Hall, I venture to our local Santa Barbara coffee shops in order to be productive and see a change of scenery out of Isla Vista. Below is an interactive map of some of my favorites that I frequent. 
+
+## Interactive Map
+
 ```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
 # loading in packages
 library(sf)  # spatial data handling             
 library(leaflet) # interactive map creation       
-library(htmltools) # HTML rendering for labels and popups       
+library(htmltools) # HTML rendering for labels and popups   
 library(janitor) # cleaning column names
-library(tidyverse) # data wrangling
+library(tidyverse) # data manipulation and piping
 library(readr)  # reading CSV files
+library(dplyr)
+
 
 # reading in data 
+ss <- read_csv("study_spots.csv")
 
+# loading in icon 
+studio_icon <- makeIcon(
+  iconUrl = here::here("study_pin.png"),
+  iconWidth = 30, iconHeight = 15)
 ```
 
-**Guide to my favorite places in SB**
-(interactive map with different colors for restaurants/food, hikes, coffee spots. when you tap on one it'll open to photos, what I order and how long it takes!)
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
 
-Going to include: 
+# making map of studios 
 
-- Food
-- Breakfast restaurants, dinners, cute places to check out 
-- Hikes 
-- Coffee Shops 
-- My favorite study spots!
+site_map <- leaflet() |> 
+  
+  # add base map tiles (use `addTiles()` for Google maps tiles, OR `addProviderTiles()` for 3rd party base maps: https://leaflet-extras.github.io/leaflet-providers/preview/) ----
+  addProviderTiles(providers$Esri.WorldImagery, group = "ESRI World Imagery") |>  
+  addProviderTiles(providers$Esri.OceanBasemap, group = "ESRI Oceans") |> 
+  
+  # add mini map ----
+  addMiniMap(toggleDisplay = TRUE, minimized = TRUE) |> 
+  
+  # set view over Goleta + SB ----
+  setView(lng = -119.78, lat = 34.430, zoom = 12) |> 
+  
+  # add markers ----
+  addMarkers(data = ss, group = "name", 
+             icon = studio_icon,
+             lng = ~long, lat = ~lat,
+             popup = ~paste0(name, "<br>",
+                             hours, "<br>",
+    "Coordinates: ", lat, ", ", long
+  )) |> 
+  
+   # add layers control (toggle base map tiles & markers based on group IDs) ----
+  addLayersControl(
+    baseGroups = c("ESRI World Imagery", "ESRI Oceans"),
+    overlayGroups = c("name"))
+
+  
+#view map 
+site_map
+```
+
+## My Orders 
+Typically I usually order: 
+
+- Cappuccino with almond milk 
+
+- Cold brew with a splash of coconut milk 
+
+- Iced matcha with almond milk (+ lavendar syrup)
+
+- Matcha lemonade
+
+- Iced latte with coconut milk 
+
 

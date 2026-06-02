@@ -74,7 +74,7 @@
     "href": "favs.html",
     "title": "My Santa Barbara Study Spots",
     "section": "",
-    "text": "# loading in packages\nlibrary(sf)  # spatial data handling             \n\nLinking to GEOS 3.13.0, GDAL 3.8.5, PROJ 9.5.1; sf_use_s2() is TRUE\n\nlibrary(leaflet) # interactive map creation       \nlibrary(htmltools) # HTML rendering for labels and popups       \nlibrary(janitor) # cleaning column names\n\n\nAttaching package: 'janitor'\n\n\nThe following objects are masked from 'package:stats':\n\n    chisq.test, fisher.test\n\nlibrary(tidyverse) # data wrangling\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.1     ✔ stringr   1.5.2\n✔ ggplot2   4.0.1     ✔ tibble    3.3.0\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.1.0     \n\n\n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(readr)  # reading CSV files\n\n# reading in data \n\nGuide to my favorite places in SB (interactive map with different colors for restaurants/food, hikes, coffee spots. when you tap on one it’ll open to photos, what I order and how long it takes!)\nGoing to include:\n\nFood\nBreakfast restaurants, dinners, cute places to check out\nHikes\nCoffee Shops\nMy favorite study spots!"
+    "text": "Whenever I am sick of studying on campus at the Library or Bren Hall, I venture to our local Santa Barbara coffee shops in order to be productive and see a change of scenery out of Isla Vista. Below is an interactive map of some of my favorites that I frequent."
   },
   {
     "objectID": "abroad.html",
@@ -243,5 +243,19 @@
     "title": "Study Abroad in Australia",
     "section": "Gold Coast",
     "text": "Gold Coast"
+  },
+  {
+    "objectID": "favs.html#my-orders",
+    "href": "favs.html#my-orders",
+    "title": "My Santa Barbara Study Spots",
+    "section": "My Orders",
+    "text": "My Orders\nTypically I usually order:\n\nCappuccino with almond milk\nCold brew with a splash of coconut milk\nIced matcha with almond milk (+ lavendar syrup)\nMatcha lemonade\nIced latte with coconut milk"
+  },
+  {
+    "objectID": "favs.html#interactive-map",
+    "href": "favs.html#interactive-map",
+    "title": "My Santa Barbara Study Spots",
+    "section": "Interactive Map",
+    "text": "Interactive Map"
   }
 ]

@@ -81,7 +81,7 @@ Here is a map of some of the Yoga Studios I have been to in Santa Barbara.
 # loading in packages
 library(sf)  # spatial data handling             
 library(leaflet) # interactive map creation       
-library(htmltools) # HTML rendering for labels and popups       
+library(htmltools) # HTML rendering for labels and popups   
 library(janitor) # cleaning column names
 library(tidyverse) # data manipulation and piping
 library(readr)  # reading CSV files
