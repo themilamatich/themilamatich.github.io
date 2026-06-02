@@ -10,17 +10,27 @@ lightbox:
 
 ```{r setup, include=FALSE}
 library(leaflet)
+library(sf)  # spatial data handling             
+library(leaflet) # interactive map creation       
+library(htmltools) # HTML rendering for labels and popups   
+library(janitor) # cleaning column names
+library(tidyverse) # data manipulation and piping
+library(readr)  # reading CSV files
+library(dplyr)
+
+# reading in data
+aus <- read_csv("abroad/aus/aus.csv")
 ```
 
 ```{r}
 #| echo: false
 # Create the leaflet map with an embedded image in the popup
-leaflet() %>%
+leaflet(aus) %>%
   addTiles() %>%
   addMarkers(
-    lng = -27.595, 
-    lat = 153.123, 
-    popup = "<b>Home Base: Rochedale South</b><br><img src='photos/rds.jpg' width='200px'>"
+    lat   = ~lat,
+    lng   = ~long,
+    popup = ~paste0("<b>", name, "</b><br>", desc, "<br><img src='", photo, "' width='200px'>")
   )
 ```
 

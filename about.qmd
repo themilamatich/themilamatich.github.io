@@ -24,7 +24,7 @@ I grew up in Manhattan Beach, California, which is also more casually known as "
 ![In order left to right: Brother (Marty), Mom, Me, Dad](familia.jpg){.regular-hover}
 :::
 ::::
-I grew up in a very loving, supportive family with my mom (Zoya), dad (John) and my little brother Marty (3 years younger). My family is super important to me and they are the reason I am who I am today. Without my mom, I would not know what hard work and dedication was. Without my dad, I would not know what empathy was, or be as caring for others as I am today. Without my brother, I would have been bored out of my mind during COVID, and would not have a soft and loving spot in my heart. One day, I hope to be as fun and free as my parents are. Some of our favorite family activities include playing cards, surfing, road tripping, and bineg watching SNL skits while dying laughing. 
+I grew up in a very loving, supportive family with my mom (Zoya), dad (John) and my little brother Marty (3 years younger). My family is super important to me and they are the reason I am who I am today. Without my mom, I would not know what hard work and dedication was. Without my dad, I would not know what empathy was, or be as caring for others as I am today. Without my brother, I would have been bored out of my mind during COVID, and would not have a soft and loving spot in my heart. One day, I hope to be as fun and hardworking as my parents are. Some of our favorite family activities include playing cards, surfing, road tripping, and binge watching SNL skits while dying laughing. 
 
 ### The Family Password: Pepper
 
@@ -33,11 +33,13 @@ I grew up in a very loving, supportive family with my mom (Zoya), dad (John) and
 ![Pepperoncini Cocoa Matich: our lovely Bernese Mountain Dog](peppers.jpg){.regular-hover}
 :::
 ::::
-Pepper is the love of my life and the best dog in the entire world. She was the topic of my college personal statement essay, which got me in to so many schools, and our cherished COVID baby. She is also known as: Boom, Booming, Mamas, Peps, Pepsi, and more. 
+Pepper is the love of my life and the best dog in the entire world. She was the topic of my college personal statement essay, which got me in to so many schools, and is our cherished COVID baby. She is also known as: Boom, Booming, Mamas, Peps, Pepsi, and more. 
 
 ## My Favorite Hobbies/Passtimes 
 
-#### Surfing 
+### Surfing 
+
+I learned to surf when I was 6 years old, and was taught by my dad. Since then, I have shared countless of waves with my dad and my friends. 
 
 :::: {layout-nrow="1"}
 ::: figure
@@ -54,7 +56,9 @@ Pepper is the love of my life and the best dog in the entire world. She was the 
 ::::
 
 
-#### Cooking and Baking 
+### Cooking and Baking 
+
+From baking during COVID to cooking in my small Isla Vista house, I have always loved working in the kitchen. Most of my recipes are taught from my dad and my nana. 
 
 ::: {layout="[[1,1,1], [1,1]]"}
 ![Family Pizza Night](pizza.jpg){group="Cooking and Baking"}
@@ -71,7 +75,7 @@ Pepper is the love of my life and the best dog in the entire world. She was the 
 :::
 
 ### Yoga 
-Here is a map of some of the Yoga Studios I have been to in Santa Barbara. 
+As a break from school work, I enjoy taking yoga classes to reconnect with myself and exercise! Here is a map of some of the Yoga Studios I have been to in Santa Barbara. 
 
 ```{r}
 #| echo: false
