@@ -1,5 +1,13 @@
 ---
 title: "Educations & Travel Abroad"
+subtitle: "On this page are places I've traveled during my time at UCSB for educational purposes, with a side of fun!"
+listing:
+  contents: abroad
+  sort: "date desc"
+  type: grid
+  categories: true
+lightbox: 
+  css-class: "styles"
 ---
 
 Things to do: 

@@ -1,5 +1,5 @@
 ---
-title: "My Santa Barbara Favorites"
+title: "My Santa Barbara Study Spots"
 format: html
 categories: [Interactive Map]
 ---
@@ -25,7 +25,6 @@ Going to include:
 - Food
 - Breakfast restaurants, dinners, cute places to check out 
 - Hikes 
-- Hikes I have done in SB 
 - Coffee Shops 
 - My favorite study spots!
 

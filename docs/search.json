@@ -72,16 +72,16 @@
   {
     "objectID": "favs.html",
     "href": "favs.html",
-    "title": "My Santa Barbara Favorites",
+    "title": "My Santa Barbara Study Spots",
     "section": "",
-    "text": "# loading in packages\nlibrary(sf)  # spatial data handling             \n\nLinking to GEOS 3.13.0, GDAL 3.8.5, PROJ 9.5.1; sf_use_s2() is TRUE\n\nlibrary(leaflet) # interactive map creation       \nlibrary(htmltools) # HTML rendering for labels and popups       \nlibrary(janitor) # cleaning column names\n\n\nAttaching package: 'janitor'\n\n\nThe following objects are masked from 'package:stats':\n\n    chisq.test, fisher.test\n\nlibrary(tidyverse) # data wrangling\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.1     ✔ stringr   1.5.2\n✔ ggplot2   4.0.1     ✔ tibble    3.3.0\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.1.0     \n\n\n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(readr)  # reading CSV files\n\n# reading in data \n\nGuide to my favorite places in SB (interactive map with different colors for restaurants/food, hikes, coffee spots. when you tap on one it’ll open to photos, what I order and how long it takes!)\nGoing to include:\n\nFood\nBreakfast restaurants, dinners, cute places to check out\nHikes\nHikes I have done in SB\nCoffee Shops\nMy favorite study spots!"
+    "text": "# loading in packages\nlibrary(sf)  # spatial data handling             \n\nLinking to GEOS 3.13.0, GDAL 3.8.5, PROJ 9.5.1; sf_use_s2() is TRUE\n\nlibrary(leaflet) # interactive map creation       \nlibrary(htmltools) # HTML rendering for labels and popups       \nlibrary(janitor) # cleaning column names\n\n\nAttaching package: 'janitor'\n\n\nThe following objects are masked from 'package:stats':\n\n    chisq.test, fisher.test\n\nlibrary(tidyverse) # data wrangling\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.1     ✔ stringr   1.5.2\n✔ ggplot2   4.0.1     ✔ tibble    3.3.0\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.1.0     \n\n\n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(readr)  # reading CSV files\n\n# reading in data \n\nGuide to my favorite places in SB (interactive map with different colors for restaurants/food, hikes, coffee spots. when you tap on one it’ll open to photos, what I order and how long it takes!)\nGoing to include:\n\nFood\nBreakfast restaurants, dinners, cute places to check out\nHikes\nCoffee Shops\nMy favorite study spots!"
   },
   {
     "objectID": "abroad.html",
     "href": "abroad.html",
     "title": "Educations & Travel Abroad",
     "section": "",
-    "text": "Things to do: starting page: map with three points on - Australia - New Zealand - Costa Rica → idea is that it will open to each of these with their own zoomed in map with more pins and a better description\nAustralia Interactive map documenting all of the places I went to in australia and description of what I did in each place with photos\nNew Zealand Outline of my 12 day adventure Take my itinerary and turn it into a sort of blog situation Including lists of hikes, where we ate and what hostel we stayed in Also have an interactive map of all of the places that I went to across the south island Costa Rica Description of the BIOMA program that I did Where I stayed, what I did, and what I learned Photo gallery !"
+    "text": "Things to do: starting page: map with three points on - Australia - New Zealand - Costa Rica → idea is that it will open to each of these with their own zoomed in map with more pins and a better description\nAustralia Interactive map documenting all of the places I went to in australia and description of what I did in each place with photos\nNew Zealand Outline of my 12 day adventure Take my itinerary and turn it into a sort of blog situation Including lists of hikes, where we ate and what hostel we stayed in Also have an interactive map of all of the places that I went to across the south island Costa Rica Description of the BIOMA program that I did Where I stayed, what I did, and what I learned Photo gallery !\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStudy Abroad in Australia\n\n\nUCEAP Marine Biology and Terrestrial Ecology Course\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew Zealand\n\n\nMy 12 day Adventure in the South Island of New Zealand\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOstional, Costa Rica\n\n\nOstional National Wildlife Refuge Sea Turtle Conservation and Research Program (Bioma Travel)\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resume.html",
@@ -138,5 +138,110 @@
     "title": "Mila Matich",
     "section": "",
     "text": "Hi, welcome to my website! My name is Mila Matich and I am in my third year of my Environmental Studies, Bachelors in Science degree at the University of California, Santa Barbara. Poke around my website to learn about me and my life!"
+  },
+  {
+    "objectID": "abroad/nz/index.html",
+    "href": "abroad/nz/index.html",
+    "title": "New Zealand",
+    "section": "",
+    "text": "After my study abroad experience in Australia, my hometown friend and I traveled the South Island of New Zealand together in a tiny red Suzuki Swift we named “Little Red Dumpling”, after a delicious restaurant we both went to in Australia. On this map is my guide of everywhere we went and everywhere we saw! Truly an adventure of a lifetime."
+  },
+  {
+    "objectID": "abroad/nz/index.html#some-quick-photo-highlights",
+    "href": "abroad/nz/index.html#some-quick-photo-highlights",
+    "title": "New Zealand",
+    "section": "Some Quick Photo Highlights",
+    "text": "Some Quick Photo Highlights\n\n\n\n\n\n\nRob Roys Glacial Track: My favorite hike we did! Absolutely stunning with a glacial view at the end.\n\n\n\n\n\n\n\nTasman Glaciar Track: One of the first and easiest hikes we did along a glacier. Our first stop on our road trip\n\n\n\n\n\n\n\nRoys Peak: Longest, hardest, most rewarding hike we did. We woke up at 2 am and began the hike at 2:30am to get to the peak for sunrise."
+  },
+  {
+    "objectID": "abroad/aus/index.html",
+    "href": "abroad/aus/index.html",
+    "title": "Study Abroad in Australia",
+    "section": "",
+    "text": "Specifically: Rochedale South"
+  },
+  {
+    "objectID": "abroad/aus/index.html#homebase-birsbane-australia",
+    "href": "abroad/aus/index.html#homebase-birsbane-australia",
+    "title": "Study Abroad in Australia",
+    "section": "",
+    "text": "Specifically: Rochedale South"
+  },
+  {
+    "objectID": "abroad/aus/index.html#syndey",
+    "href": "abroad/aus/index.html#syndey",
+    "title": "Study Abroad in Australia",
+    "section": "Syndey",
+    "text": "Syndey"
+  },
+  {
+    "objectID": "abroad/aus/index.html#melbourne",
+    "href": "abroad/aus/index.html#melbourne",
+    "title": "Study Abroad in Australia",
+    "section": "Melbourne",
+    "text": "Melbourne"
+  },
+  {
+    "objectID": "abroad/aus/index.html#witsundays-airle-beach",
+    "href": "abroad/aus/index.html#witsundays-airle-beach",
+    "title": "Study Abroad in Australia",
+    "section": "Witsundays (Airle Beach)",
+    "text": "Witsundays (Airle Beach)"
+  },
+  {
+    "objectID": "abroad/aus/index.html#noosa",
+    "href": "abroad/aus/index.html#noosa",
+    "title": "Study Abroad in Australia",
+    "section": "Noosa",
+    "text": "Noosa"
+  },
+  {
+    "objectID": "abroad/aus/index.html#homebase-brisbane-australia",
+    "href": "abroad/aus/index.html#homebase-brisbane-australia",
+    "title": "Study Abroad in Australia",
+    "section": "Homebase: Brisbane, Australia",
+    "text": "Homebase: Brisbane, Australia\nSpecifically: Rochedale South\n\nUniversity of Quensland, St. Lucia Campus"
+  },
+  {
+    "objectID": "abroad/aus/index.html#lamington-national-park",
+    "href": "abroad/aus/index.html#lamington-national-park",
+    "title": "Study Abroad in Australia",
+    "section": "Lamington National Park",
+    "text": "Lamington National Park"
+  },
+  {
+    "objectID": "abroad/aus/index.html#north-stradbroke-island-minjerribah",
+    "href": "abroad/aus/index.html#north-stradbroke-island-minjerribah",
+    "title": "Study Abroad in Australia",
+    "section": "North Stradbroke Island (Minjerribah)",
+    "text": "North Stradbroke Island (Minjerribah)"
+  },
+  {
+    "objectID": "abroad/aus/index.html#canarvon-gorge",
+    "href": "abroad/aus/index.html#canarvon-gorge",
+    "title": "Study Abroad in Australia",
+    "section": "Canarvon Gorge",
+    "text": "Canarvon Gorge"
+  },
+  {
+    "objectID": "abroad/aus/index.html#heron-island",
+    "href": "abroad/aus/index.html#heron-island",
+    "title": "Study Abroad in Australia",
+    "section": "Heron Island",
+    "text": "Heron Island"
+  },
+  {
+    "objectID": "abroad/aus/index.html#byron-bay",
+    "href": "abroad/aus/index.html#byron-bay",
+    "title": "Study Abroad in Australia",
+    "section": "Byron Bay",
+    "text": "Byron Bay"
+  },
+  {
+    "objectID": "abroad/aus/index.html#gold-coast",
+    "href": "abroad/aus/index.html#gold-coast",
+    "title": "Study Abroad in Australia",
+    "section": "Gold Coast",
+    "text": "Gold Coast"
   }
 ]

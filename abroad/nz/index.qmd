@@ -1,0 +1,27 @@
+---
+title: "New Zealand"
+description: "My 12 day Adventure in the South Island of New Zealand"
+image: nz_thumbnail.png
+format: html
+toc: false
+lightbox:
+  css-class: "styles"
+---
+
+After my study abroad experience in Australia, my hometown friend and I traveled the South Island of New Zealand together in a tiny red Suzuki Swift we named "Little Red Dumpling", after a delicious restaurant we both went to in Australia. On this map is my guide of everywhere we went and everywhere we saw! Truly an adventure of a lifetime. 
+
+# Personal Guide
+
+```{=html}
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=15cJzatC_Mhhh3ar3Fhv7r9TZM1N36xA&ehbc=2E312F" width="640" height="480"></iframe>
+```
+
+## Some Quick Photo Highlights
+
+::: {layout="[1,1,1]"}
+![**Rob Roys Glacial Track**: My favorite hike we did! Absolutely stunning with a glacial view at the end.](robroy.jpg)
+
+![**Tasman Glaciar Track**: One of the first and easiest hikes we did along a glacier. Our first stop on our road trip](tasmanglacier.jpg)
+
+![**Roys Peak**: Longest, hardest, most rewarding hike we did. We woke up at 2 am and began the hike at 2:30am to get to the peak for sunrise.](royspeack.jpg)
+:::

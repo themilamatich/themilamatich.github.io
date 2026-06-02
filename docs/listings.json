@@ -8,5 +8,13 @@
       "/projects/writ105s_article/index.html",
       "/projects/writ2_published/index.html"
     ]
+  },
+  {
+    "listing": "/abroad.html",
+    "items": [
+      "/abroad/aus/index.html",
+      "/abroad/nz/index.html",
+      "/abroad/cr/index.html"
+    ]
   }
 ]
