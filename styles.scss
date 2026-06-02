@@ -1,0 +1,27 @@
+/*-- scss:defaults --*/
+
+// import font
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+// colors
+$navy: #2C3E6B;
+$blue: #4A72B8;
+$light-blue: #A8C4E0;
+$purple: #4A2D6B;
+$light-purple: #F2EEF7;
+$cream: #F7F8FC; 
+$gray: #5A5A6B;
+
+// Base Document Colors 
+$navbar-bg: $purple; // navbar
+$navbar-fg: $cream; // navbar foreground elements
+$navbar-hl: $cream; // highlight color when hovering over navbar links
+$body-bg: $light-purple; // page background
+$body-color: $gray; // page text 
+$footer-bg: $cream; // footer 
+$link-color: $navy; // hyperlinks
+
+figcaption {
+  text-align: center;
+}
+
