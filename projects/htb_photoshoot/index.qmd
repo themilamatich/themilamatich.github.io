@@ -32,6 +32,10 @@ categories:
 ## Designed Product Layout 
 :::: {layout-nrow="1"}
 ::: figure
+![In Action!](images/setup.jpg){.regular-hover}
+:::
+
+::: figure
 ![I laid out all of the merchendise before the photographer took and edited the photo.](images/layout.jpg){.regular-hover}
 :::
 ::::
