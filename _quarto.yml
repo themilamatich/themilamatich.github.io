@@ -16,10 +16,8 @@ website:
 
 format:
   html:
-    theme:
-      - morph
-      - brand
-    css: styles.css
+    theme: styles.scss
+    mainfont: "EB Garamond"
     toc: true
     page-layout: full
 
