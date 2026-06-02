@@ -19,9 +19,9 @@ library(readr)  # reading CSV files
 library(dplyr)
 
 # reading in data
-aus <- read_csv("abroad/aus/aus.csv")
+aus <- read_csv("abroad/aus/for mapping - aus.csv")
 ```
-
+svg
 ```{r}
 #| echo: false
 # Create the leaflet map with an embedded image in the popup
@@ -30,9 +30,58 @@ leaflet(aus) %>%
   addMarkers(
     lat   = ~lat,
     lng   = ~long,
-    popup = ~paste0("<b>", name, "</b><br>", desc, "<br><img src='", photo, "' width='200px'>")
+    popup = ~paste0("<b>", name, "</b><br>", desc, 
+                "<br>", photo, "' width='200px'>")
   )
 ```
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(leaflet)
+library(readr)
+
+aus <- read_csv("abroad/aus/for mapping - aus.csv")
+
+base <- "https://milamatich.github.io/abroad/aus/"
+
+leaflet(aus) %>%
+  addTiles() %>%
+  setView(lng = 153.02, lat = -27.54, zoom = 11) %>%
+  addMarkers(
+    lat   = ~lat,
+    lng   = ~long,
+    popup = ~paste0(
+      "<b>", name, "</b><br>",
+      desc, "<br>",
+      "<img src='", base, photo, "' width='200px'>"
+    )
+  )
+```
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+library(leaflet)
+
+leaflet() %>%
+  addTiles() %>%
+  setView(lng = 153.02, lat = -27.54, zoom = 11) %>%
+  addMarkers(
+    lng = 153.130594, lat = -27.596524,
+    popup = "<b>Rochedale South</b><br>Homestay<br>
+             <img src='/Users/milamatich/Desktop/git/themilamatich.github.io/abroad/aus/rds.jpg' width='200px'>"
+  ) %>%
+  addMarkers(
+    lng = 153.0152752, lat = -27.4970971,
+    popup = "<b>University of Queensland, St Lucia Campus</b><br>Host University<br>
+             <img src='/Users/milamatich/Desktop/git/themilamatich.github.io/abroad/aus/uq.jpg' width='200px'>"
+  )
+```
+
 
 # On my Own 
 ## Homebase: Brisbane, Australia 
