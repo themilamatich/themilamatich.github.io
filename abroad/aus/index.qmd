@@ -1,6 +1,7 @@
 ---
 title: "Study Abroad in Australia"
-description: UCEAP Marine Biology and Terrestrial Ecology Course
+subtitle: UCEAP Marine Biology and Terrestrial Ecology Course
+description: On this page is a list of national parks we traveled to for the program. Enjoy! 
 image: aus_thumbnail.svg
 format: html
 toc: false
@@ -8,108 +9,106 @@ lightbox:
   css-class: "styles"
 ---
 
-```{r setup, include=FALSE}
-library(leaflet)
-library(sf)  # spatial data handling             
-library(leaflet) # interactive map creation       
-library(htmltools) # HTML rendering for labels and popups   
-library(janitor) # cleaning column names
-library(tidyverse) # data manipulation and piping
-library(readr)  # reading CSV files
-library(dplyr)
-
-# reading in data
-aus <- read_csv("abroad/aus/for mapping - aus.csv")
-```
-svg
-```{r}
-#| echo: false
-# Create the leaflet map with an embedded image in the popup
-leaflet(aus) %>%
-  addTiles() %>%
-  addMarkers(
-    lat   = ~lat,
-    lng   = ~long,
-    popup = ~paste0("<b>", name, "</b><br>", desc, 
-                "<br>", photo, "' width='200px'>")
-  )
-```
-
-```{r}
-#| echo: false
-#| message: false
-#| warning: false
-
-library(leaflet)
-library(readr)
-
-aus <- read_csv("abroad/aus/for mapping - aus.csv")
-
-base <- "https://milamatich.github.io/abroad/aus/"
-
-leaflet(aus) %>%
-  addTiles() %>%
-  setView(lng = 153.02, lat = -27.54, zoom = 11) %>%
-  addMarkers(
-    lat   = ~lat,
-    lng   = ~long,
-    popup = ~paste0(
-      "<b>", name, "</b><br>",
-      desc, "<br>",
-      "<img src='", base, photo, "' width='200px'>"
-    )
-  )
-```
-
-```{r}
-#| echo: false
-#| message: false
-#| warning: false
-library(leaflet)
-
-leaflet() %>%
-  addTiles() %>%
-  setView(lng = 153.02, lat = -27.54, zoom = 11) %>%
-  addMarkers(
-    lng = 153.130594, lat = -27.596524,
-    popup = "<b>Rochedale South</b><br>Homestay<br>
-             <img src='/Users/milamatich/Desktop/git/themilamatich.github.io/abroad/aus/rds.jpg' width='200px'>"
-  ) %>%
-  addMarkers(
-    lng = 153.0152752, lat = -27.4970971,
-    popup = "<b>University of Queensland, St Lucia Campus</b><br>Host University<br>
-             <img src='/Users/milamatich/Desktop/git/themilamatich.github.io/abroad/aus/uq.jpg' width='200px'>"
-  )
-```
-
-
-# On my Own 
 ## Homebase: Brisbane, Australia 
-Specifically: Rochedale South 
 
 #### University of Quensland, St. Lucia Campus 
+:::: {layout="[1,1,1]"}
+::: figure
+![Studying out in the Lawn](photos/uq.jpg){group="University of Quensland, St. Lucia Campus"}
+:::
+
+::: figure
+![Front of Campus by the Bus Stop](photos/uq2.jpg){group="University of Quensland, St. Lucia Campus"}
+:::
+
+::: figure
+![The Great Court](photos/gcourt.jpg){group="University of Quensland, St. Lucia Campus"}
+:::
+:::
 
 ## Lamington National Park 
+:::: {layout="[[1],[1,1,1]]"}
+::: figure
+![The First Koala that I saw!](photos/kaola1.jpg){group="Lamington National Park "}
+:::
+::: figure
+![The Sleeping Situation](photos/tent.jpg){group="Lamington National Park "}
+:::
+
+::: figure
+![First (and Longest) Hike](photos/hike.jpg){group="Lamington National Park "}
+:::
+
+::: figure
+![Kookaburra on a Pole](photos/cookaburra.jpg){group="Lamington National Park "}
+:::
+::::
 
 ## North Stradbroke Island (Minjerribah)
+:::: {layout="[[1,1,1],[1,1]]"}
+::: figure
+![Fieldwork in the Mangroves](photos/mangroves.jpg){group="North Stradbroke Island (Minjerribah)"}
+:::
 
-## Canarvon Gorge 
+::: figure
+![Look at the Kangaroos!](photos/roos.jpg){group="North Stradbroke Island (Minjerribah)"}
+:::
+
+::: figure
+![Reading Break in front of the Research Station](photos/read.jpg){group="North Stradbroke Island (Minjerribah)"}
+:::
+
+::: figure
+![The Lone Boat](photos/boat.jpg){group="North Stradbroke Island (Minjerribah)"}
+:::
+
+::: figure
+![Mama and Baby Koala](photos/koala2.jpg){group="North Stradbroke Island (Minjerribah)"}
+:::
+::::
+
+## Canarvon Gorge
+:::: {layout="[[1,1],[1], [1,1]]"}
+::: figure
+![Climbing through a Slit Gorge](photos/gorg.jpg){group="Canarvon Gorge"}
+:::
+
+::: figure 
+![Entering The Carnarvon Gorge Amphitheatre](photos/gorg 2.jpg){group="Canarvon Gorge"}
+:::
+
+::: figure
+![Sleeping Under the Stars](photos/megabed.jpg){group="Canarvon Gorge"}
+:::
+
+::: figure 
+![Brushtail Possum: Mamma & Baby!](photos/possum.jpg){group="Canarvon Gorge"}
+:::
+
+::: figure 
+![A Multitude of Bats](photos/bats.jpg){group="Canarvon Gorge"}
+:::
+::::
 
 ## Heron Island
+:::: {layout="[[1],[1,1], [1,1]]"}
+::: figure
+![The Island](photos/island.jpg){group="Heron Island"}
+:::
 
-## Byron Bay 
+::: figure
+![Green Sea Turtle](photos/green.jpg){group="Heron Island"}
+:::
 
-## Gold Coast 
+::: figure
+![*Pocillopora*: Cauliflower Coral ](photos/coral.jpg){group="Heron Island"}
+:::
 
-# With my Mom !
+::: figure
+![Morning Snorkel](photos/msnork.jpg){group="Heron Island"}
+:::
 
-## Syndey 
-
-## Melbourne 
-
-## Witsundays (Airle Beach)
-
-## Noosa 
-
-
-##
+::: figure
+![Sunset Snorkel](photos/sunset.jpg){group="Heron Island"}
+:::
+::::

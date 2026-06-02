@@ -105,6 +105,7 @@ studio_icon <- makeIcon(
 #| echo: false
 #| message: false
 #| warning: false
+#| code-fold: true 
 
 # making map of studios 
 
