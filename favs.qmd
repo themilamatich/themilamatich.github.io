@@ -28,8 +28,8 @@ ss <- read_csv("study_spots.csv")
 
 # loading in icon 
 studio_icon <- makeIcon(
-  iconUrl = here::here("study_pin.png"),
-  iconWidth = 30, iconHeight = 15)
+  iconUrl = here::here("coffee.png"),
+  iconWidth = 15, iconHeight = 20)
 ```
 
 ```{r}
