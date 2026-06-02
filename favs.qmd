@@ -1,6 +1,21 @@
 ---
 title: "My Santa Barbara Favorites"
+format: html
+categories: [Interactive Map]
 ---
+
+```{r}
+# loading in packages
+library(sf)  # spatial data handling             
+library(leaflet) # interactive map creation       
+library(htmltools) # HTML rendering for labels and popups       
+library(janitor) # cleaning column names
+library(tidyverse) # data wrangling
+library(readr)  # reading CSV files
+
+# reading in data 
+
+```
 
 **Guide to my favorite places in SB**
 (interactive map with different colors for restaurants/food, hikes, coffee spots. when you tap on one it'll open to photos, what I order and how long it takes!)

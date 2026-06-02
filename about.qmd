@@ -70,8 +70,69 @@ Pepper is the love of my life and the best dog in the entire world. She was the 
 ![Oatmeal Cookies (Nana's Recipe)](oatcookies.png){group="Cooking and Baking"}
 :::
 
-#### Yoga 
-- yoga (map of some of my favorite studios and classes in sb)
+### Yoga 
+Here is a map of some of the Yoga Studios I have been to in Santa Barbara. 
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+# loading in packages
+library(sf)  # spatial data handling             
+library(leaflet) # interactive map creation       
+library(htmltools) # HTML rendering for labels and popups       
+library(janitor) # cleaning column names
+library(tidyverse) # data manipulation and piping
+library(readr)  # reading CSV files
+library(dplyr)
+
+
+# reading in data 
+yoga <- read_csv("yoga.csv")
+
+# loading in icon 
+studio_icon <- makeIcon(
+  iconUrl = here::here("star.png"),
+  iconWidth = 30, iconHeight = 30)
+```
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+# making map of studios 
+
+site_map <- leaflet() |> 
+  
+  # add base map tiles (use `addTiles()` for Google maps tiles, OR `addProviderTiles()` for 3rd party base maps: https://leaflet-extras.github.io/leaflet-providers/preview/) ----
+  addProviderTiles(providers$Esri.WorldImagery, group = "ESRI World Imagery") |>  
+  addProviderTiles(providers$Esri.OceanBasemap, group = "ESRI Oceans") |> 
+  
+  # add mini map ----
+  addMiniMap(toggleDisplay = TRUE, minimized = TRUE) |> 
+  
+  # set view over Goleta + SB ----
+  setView(lng = -119.80, lat = 34.40, zoom = 12) |> 
+  
+  # add markers ----
+  addMarkers(data = yoga, group = "name",
+             icon = studio_icon,
+             lng = ~long, lat = ~lat,
+             popup = ~paste0(name, "<br>",
+    "Coordinates: ", lat, ", ", long
+  )) |> 
+  
+   # add layers control (toggle base map tiles & markers based on group IDs) ----
+  addLayersControl(
+    baseGroups = c("ESRI World Imagery", "ESRI Oceans"),
+    overlayGroups = c("name"))
+
+  
+#view map 
+site_map
+```
 
 ## Education + Aspirations 
 I currently have a focus in Marine Biology and Terrestrial ecology. Some of my career interests are field work and getting involved in marine or terrestrial conservation and restoration work. I am very passionate about sustainability and protecting our natural resources and species 

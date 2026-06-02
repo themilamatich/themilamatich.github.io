@@ -25,7 +25,7 @@
     "href": "about.html#my-favorite-hobbiespasstimes",
     "title": "About Me",
     "section": "My Favorite Hobbies/Passtimes",
-    "text": "My Favorite Hobbies/Passtimes\n\nSurfing\n\n\n\n\n\n\nMy dad and I @ El Porto\n\n\n\n\n\n\n\n@ Mexico\n\n\n\n\n\n\n\n@ Campus Point\n\n\n\n\n\n\n\nCooking and Baking\n\n\n\n\n\n\nFamily Pizza Night\n\n\n\n\n\n\n\nTaco Party (Nana’s Recipe)\n\n\n\n\n\n\n\nClassic College Meal: Lemon salmon, pasta salad, arugula salad + avocado\n\n\n\n\n\n\n\n\n\nMy famous Banana Bread (Nana’s Recipe)\n\n\n\n\n\n\n\nOatmeal Cookies (Nana’s Recipe)\n\n\n\n\n\n\n\nYoga\n\nyoga (map of some of my favorite studios and classes in sb)"
+    "text": "My Favorite Hobbies/Passtimes\n\nSurfing\n\n\n\n\n\n\nMy dad and I @ El Porto\n\n\n\n\n\n\n\n@ Mexico\n\n\n\n\n\n\n\n@ Campus Point\n\n\n\n\n\n\n\nCooking and Baking\n\n\n\n\n\n\nFamily Pizza Night\n\n\n\n\n\n\n\nTaco Party (Nana’s Recipe)\n\n\n\n\n\n\n\nClassic College Meal: Lemon salmon, pasta salad, arugula salad + avocado\n\n\n\n\n\n\n\n\n\nMy famous Banana Bread (Nana’s Recipe)\n\n\n\n\n\n\n\nOatmeal Cookies (Nana’s Recipe)\n\n\n\n\n\n\n\nYoga\nHere is a map of some of the Yoga Studios I have been to in Santa Barbara."
   },
   {
     "objectID": "about.html#education-aspirations",
@@ -74,7 +74,7 @@
     "href": "favs.html",
     "title": "My Santa Barbara Favorites",
     "section": "",
-    "text": "Guide to my favorite places in SB (interactive map with different colors for restaurants/food, hikes, coffee spots. when you tap on one it’ll open to photos, what I order and how long it takes!)\nGoing to include:\n\nFood\nBreakfast restaurants, dinners, cute places to check out\nHikes\nHikes I have done in SB\nCoffee Shops\nMy favorite study spots!"
+    "text": "# loading in packages\nlibrary(sf)  # spatial data handling             \n\nLinking to GEOS 3.13.0, GDAL 3.8.5, PROJ 9.5.1; sf_use_s2() is TRUE\n\nlibrary(leaflet) # interactive map creation       \nlibrary(htmltools) # HTML rendering for labels and popups       \nlibrary(janitor) # cleaning column names\n\n\nAttaching package: 'janitor'\n\n\nThe following objects are masked from 'package:stats':\n\n    chisq.test, fisher.test\n\nlibrary(tidyverse) # data wrangling\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.1     ✔ stringr   1.5.2\n✔ ggplot2   4.0.1     ✔ tibble    3.3.0\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.1.0     \n\n\n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(readr)  # reading CSV files\n\n# reading in data \n\nGuide to my favorite places in SB (interactive map with different colors for restaurants/food, hikes, coffee spots. when you tap on one it’ll open to photos, what I order and how long it takes!)\nGoing to include:\n\nFood\nBreakfast restaurants, dinners, cute places to check out\nHikes\nHikes I have done in SB\nCoffee Shops\nMy favorite study spots!"
   },
   {
     "objectID": "abroad.html",
