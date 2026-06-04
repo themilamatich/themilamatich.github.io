@@ -1,5 +1,5 @@
 ---
-title: "Heal The Bay Merchenidse Photoshoot"
+title: "Heal The Bay Merchandise Photoshoot"
 description: "Photoshoot producer for non-profit website reboot."
 image: htb_thumbnail.png
 format: html

@@ -5,11 +5,11 @@ lightbox:
   css-class: "styles"
 ---
 
-*Updated: May 28, 2026.* [View](mila matich cv (ongoing).pdf)
+*Updated: July 1, 2026.* [View](mila-cv.pdf)
 
 ------------------------------------------------------------------------
 
-![](mila matich cv (ongoing).pdf){width="100%" height="700px"}
+![](mila-cv.pdf){width="100%" height="700px"}
 
 ------------------------------------------------------------------------
 
