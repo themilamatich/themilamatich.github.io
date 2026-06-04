@@ -10,14 +10,14 @@ lightbox:
 
 ## What I was Up To Here
 
-The summer in between my Freshman Sophomore year of college (in 2024), I signed up to go on the 10 day sea turtle field course in Ostional, Costa Rica. This was one of the most spontaneous decisions I had made thus far in college as I have never traveled by myself before and knew nobody in my program. However, this experience has turned out to be one of the best trips of my life.
+The summer in between my Freshman and Sophomore year of college (in 2024), I signed up to go on the 10 day sea turtle field course in Ostional, Costa Rica. This was one of the most spontaneous decisions I had made thus far in college as I have never traveled by myself before and knew nobody in my program. However, this experience has turned out to be one of the best trips of my life.
 
 ::::: columns
-::: {.column width="60%"}
+::: {.column width="50%"}
 ![My group and I collecting data](images/work.jpg){width="95%"}
 :::
 
-::: {.column width="40%"}
+::: {.column width="50%"}
 Through the BIOMA program, I gained valuable experience in field work, data collection and learned a lot about local conservation management strategies around the Olive Ridley Sea Turtle species. We partook in "citizen science", where we went on nightly patrols in shifts (either 8pm-12am or 12am-4am) to monitor sea turtle activity and nesting. During these patrols, we had to wear dark clothing and only use red light headlamps to avoid disturbing and scaring the turtles while they nest. We collected data in small groups of 4-5 with a head instructor, measuring the sea turtle carapace size, the flipped length, the clutch size, counted how many eggs the turtle lay, and how long it took her to do so. Someone was also tasked with recording data and the location of each turtle we recorded data for. During the data collection portion, we were not allowed to go in front of the turtles and had to stay out of her eyesight to avoid making her abandon her nest.
 :::
 :::::

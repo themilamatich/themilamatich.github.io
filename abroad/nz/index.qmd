@@ -21,7 +21,7 @@ After my study abroad experience in Australia, my hometown friend and I traveled
 ::: {layout="[1,1,1]"}
 ![**Rob Roys Glacial Track**: My favorite hike we did! Absolutely stunning with a glacial view at the end.](robroy.jpg)
 
-![**Tasman Glaciar Track**: One of the first and easiest hikes we did along a glacier. Our first stop on our road trip](tasmanglacier.jpg)
+![**Tasman Glaciar Track**: One of the first and easiest hikes we did along a glacier. Our first stop on our road trip.](tasmanglacier.jpg)
 
 ![**Roys Peak**: Longest, hardest, most rewarding hike we did. We woke up at 2 am and began the hike at 2:30am to get to the peak for sunrise.](royspeack.jpg)
 :::
