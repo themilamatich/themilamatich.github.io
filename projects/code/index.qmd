@@ -1,14 +1,13 @@
 ---
 title: "Personal Research Project: Daily Step Count"
 description: "ENVS 193DS personal data project across a 5 week period."
-image: code_thumbnail.JPG
+image: code_thumbnail.png
 format: html
 toc: false
 lightbox:
   css-class: "styles"
 categories:
   - R/Rstudio
-  - Scientific Writing
 ---
 
 *For my ENVS 193DS personal data project, I decided to analyze how my daily step count differed on days that I had class versus the days that I did not have class (ie. Weekend vs. Weekday). In additional to recording the day of the week and my daily step count, I also included the daily high temperature to see if temperature difference influences how many steps I took in the day.*
