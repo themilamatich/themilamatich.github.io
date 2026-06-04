@@ -14,7 +14,7 @@ categories:
 
 ## Setting up my Document, Reading in Data and Cleaning it
 
-This is always my first step when developing code and visualizations for a data set! This makes it easier to work with the data later on in plot development. 
+This is always my first step when developing code and visualizations for a data set! This makes it easier to work with the data later on in plot development. This step involved loading in packages, reading in my data as objects (to be easier to reference later), cleaning my data by selecting columns of interest and cleaning the names (all lowercase and no spaces). Because I was generating a linear model to see how daily high temperature predicted my daily step count, I fit a linear model and did that in my preliminary steps in order to generate a vsiualization in the next step. 
 
 ```{r}
 #| message: FALSE
@@ -54,7 +54,7 @@ my_data_preds <- ggpredict(
 
 ## Data Visualization
 
-In order to visualize the differences across my predictor and response variables, I generated a box plot and a linear model. Below is the code I used in order to generate my plots, along with the figure captions for each plot. 
+In order to visualize the differences across my predictor and response variables, I generated a box plot and a linear model. I chose a box plot to compare median step count across weekend and weekday, and a linear model to show how daily high temperature predicts my daily step count. Below is the code I used in order to generate my plots, along with the figure captions for each plot that describes the conclusion that can be drawn from the figure. 
 
 ### Weekday vs Weekend Step Count 
 ```{r}

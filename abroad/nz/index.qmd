@@ -13,7 +13,7 @@ After my study abroad experience in Australia, my hometown friend and I traveled
 # Personal Guide
 
 ```{=html}
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=15cJzatC_Mhhh3ar3Fhv7r9TZM1N36xA&ehbc=2E312F" width="640" height="480"></iframe>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=15cJzatC_Mhhh3ar3Fhv7r9TZM1N36xA&ehbc=2E312F" width="1000" height="600"></iframe>
 ```
 
 ## Some Quick Photo Highlights

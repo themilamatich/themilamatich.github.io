@@ -4,7 +4,7 @@ format: html
 categories: [Interactive Map]
 ---
 
-Whenever I am sick of studying on campus at the Library or Bren Hall, I venture to our local Santa Barbara coffee shops in order to be productive and see a change of scenery out of Isla Vista. Below is an interactive map of some of my favorites that I frequent. 
+Whenever I am sick of studying on campus at the Library or Bren Hall, I venture to our local Santa Barbara coffee shops in order to be productive and see a change of scenery out of Isla Vista. Below is an interactive map of some of my favorites that I frequent and their hours. 
 
 ## Interactive Map
 

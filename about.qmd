@@ -138,6 +138,7 @@ site_map <- leaflet() |>
 #view map 
 site_map
 ```
+There are not specific classes I take at each studio, I usually do some variation of sculpt (weighted flow), heated vinyasa or a restorative flow. It just depends on what is available during the times I am free!
 
 ## Education + Aspirations 
 While I currently am getting my degree in Environmental Studies, my focus is in Marine Biology and Terrestrial ecology. Some of my career interests are field work and getting involved in marine or terrestrial conservation and restoration work. I am very passionate about sustainability and protecting our natural resources and species, so the general direction of my future career will be in that field. 
